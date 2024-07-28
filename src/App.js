@@ -31,22 +31,6 @@ function App() {
     }
   }, [inView_letter]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      // 927 - about
-      // 5800 - letter
-      // console.log(window.scrollY);
-      const pos = window.scrollY;
-      if (pos >= 927 && pos < 5800) {
-        // console.log("about page");
-        setMenu(1);
-      } else if (pos >= 5800) {
-        // console.log("letter page");
-        setMenu(2);
-      }
-    });
-  }, []);
-
   return (
     <div className="App">
       <audio ref={audio_ref} loop autoPlay></audio>

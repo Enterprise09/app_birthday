@@ -29,14 +29,6 @@ const Intro = forwardRef((props, ref) => {
         2024년 생신축하가 있겠습니다.
       </p>
       <br />
-      {/* <button
-        className="btn"
-        onClick={() => {
-          window.location.href = "#about";
-        }}
-      >
-        진행하기
-      </button> */}
     </div>
   );
 });

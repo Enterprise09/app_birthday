@@ -106,8 +106,6 @@ const About = forwardRef((props, ref) => {
         <br />
       </p>
       <br />
-
-      {/* <img src={byimg1} alt="img1" /> */}
       <img src={byimg2} alt="img" />
       <img src={img2} alt="img" />
       <img src={img3} alt="img" />
