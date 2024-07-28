@@ -101,6 +101,8 @@ const EmblaCarousel = (props) => {
                     className="embla__slide__img embla__parallax__img"
                     src={slide}
                     alt="사진"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>

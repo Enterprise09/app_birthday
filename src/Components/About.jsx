@@ -106,22 +106,22 @@ const About = forwardRef((props, ref) => {
         <br />
       </p>
       <br />
-      <img src={byimg2} alt="img" />
-      <img src={img2} alt="img" />
-      <img src={img3} alt="img" />
-      <img src={img19} alt="img" />
+      <img src={byimg2} alt="img" loading="lazy" decoding="async" />
+      <img src={img2} alt="img" loading="lazy" decoding="async" />
+      <img src={img3} alt="img" loading="lazy" decoding="async" />
+      <img src={img19} alt="img" loading="lazy" decoding="async" />
       <EmblaCarousel slides={vimg_arr} options={OPTIONS} />
-      <img src={img22} alt="img" />
-      <img src={img24} alt="img" />
-      <img src={img36} alt="img" />
-      <img src={img52} alt="img" />
+      <img src={img22} alt="img" loading="lazy" decoding="async" />
+      <img src={img24} alt="img" loading="lazy" decoding="async" />
+      <img src={img36} alt="img" loading="lazy" decoding="async" />
+      <img src={img52} alt="img" loading="lazy" decoding="async" />
       <EmblaCarousel slides={img_arr} options={OPTIONS} />
-      <img src={img53} alt="img" />
-      <img src={img56} alt="img" />
-      <img src={img58} alt="img" />
-      <img src={img60} alt="img" />
+      <img src={img53} alt="img" loading="lazy" decoding="async" />
+      <img src={img56} alt="img" loading="lazy" decoding="async" />
+      <img src={img58} alt="img" loading="lazy" decoding="async" />
+      <img src={img60} alt="img" loading="lazy" decoding="async" />
       <EmblaCarousel slides={wimg_arr} options={OPTIONS} />
-      <img src={img57} alt="img" />
+      <img src={img57} alt="img" loading="lazy" decoding="async" />
     </div>
   );
 });
